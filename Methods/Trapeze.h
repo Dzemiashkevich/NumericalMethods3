@@ -62,8 +62,8 @@ public:
         if (show_graphs==1) {
             fileR_k.close();
             fileGamma_k.close();
-            system("gnuplot -e \"set terminal png; set output '../TrapezeR_k.png' ; plot '../TrapezeR_k.txt' using 2:1 with linespoints\"");
-            system("gnuplot -e \"set terminal png; set output '../TrapezeGamma_k.png' ; plot '../TrapezeGamma_k.txt' using 2:1 with linespoints\"");
+            system("gnuplot -e \"set terminal png; set output '../Graphics/TrapezeR_k.png' ; plot '../TrapezeR_k.txt' using 2:1 with linespoints\"");
+            system("gnuplot -e \"set terminal png; set output '../Graphics/TrapezeGamma_k.png' ; plot '../TrapezeGamma_k.txt' using 2:1 with linespoints\"");
         }
         return g.I1+R1;
     }

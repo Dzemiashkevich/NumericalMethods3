@@ -69,8 +69,8 @@ public:
     if (show_graphs==1) {
         fileR_k.close();
         fileGamma_k.close();
-        system("gnuplot -e \"set terminal png; set output '../SympsonR_k.png' ; plot '../SympsonR_k.txt' using 2:1 with linespoints\"");
-        system("gnuplot -e \"set terminal png; set output '../SympsonGamma_k.png' ; plot '../SympsonGamma_k.txt' using 2:1 with linespoints\"");
+        system("gnuplot -e \"set terminal png; set output '../Graphics/SympsonR_k.png' ; plot '../SympsonR_k.txt' using 2:1 with linespoints\"");
+        system("gnuplot -e \"set terminal png; set output '../Graphics/SympsonGamma_k.png' ; plot '../SympsonGamma_k.txt' using 2:1 with linespoints\"");
     }
         return g.I1+R1;
     }
