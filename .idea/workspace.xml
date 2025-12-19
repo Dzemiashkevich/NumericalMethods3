@@ -28,7 +28,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb13d10e-f5a3-4b1d-b3a3-2fe69a52037d" name="Changes" comment="" />
+    <list default="true" id="fb13d10e-f5a3-4b1d-b3a3-2fe69a52037d" name="Changes" comment="Move png images to directory Graphics">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CentralRectGamma_k.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CentralRectGamma_k.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CentralRectR_k.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CentralRectR_k.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphics/CentralRectGamma_k.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphics/CentralRectGamma_k.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphics/CentralRectR_k.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphics/CentralRectR_k.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SympsonGamma_k.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SympsonGamma_k.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SympsonR_k.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SympsonR_k.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Task2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Task2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrapezeGamma_k.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TrapezeGamma_k.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrapezeR_k.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TrapezeR_k.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +49,21 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dzemiashkevich&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dzemiashkevich/NumericalMethods3&quot;,
+    &quot;accountId&quot;: &quot;2acdbf38-7b19-45e1-acc3-80e6fb23d507&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Methods/Sympson.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -1395,10 +1421,12 @@
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/dzemiashkevichvlad/CLionProjects/NumericalMethodsLab3/Methods&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -1450,8 +1478,27 @@
       <workItem from="1765241605522" duration="240000" />
       <workItem from="1765503714111" duration="221000" />
       <workItem from="1765536114050" duration="722000" />
-      <workItem from="1766096376106" duration="1000" />
+      <workItem from="1766096376106" duration="498000" />
+      <workItem from="1766098612106" duration="30000" />
+      <workItem from="1766105831955" duration="1282000" />
     </task>
+    <task id="LOCAL-00001" summary="upload files from pc">
+      <option name="closed" value="true" />
+      <created>1766096526815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766096526815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Move png images to directory Graphics">
+      <option name="closed" value="true" />
+      <created>1766096714915</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766096714915</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1461,6 +1508,11 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload files from pc" />
+    <MESSAGE value="Move png images to directory Graphics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move png images to directory Graphics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
